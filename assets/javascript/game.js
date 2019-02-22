@@ -27,7 +27,7 @@ document.onkeyup = function(event) {
     guessesLeft = 10;
     guessesLeftText.textContent = "Guesses Left: " + guessesLeft;
     guessesSoFar = " ";
-    guessesSoFarText.textContent = "Your guesses so far: ";
+    guessesSoFarText.textContent = "Your guesses so far:";
   } else {
     guessesLeft--;
     guessesLeftText.textContent = "Guesses left: " + guessesLeft;
