@@ -7,27 +7,29 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Psychic Game</title>
   </head>
   <body>
-    <h1>Psychic Game</h1>
+    <div class="container">
+      <!-- Content here -->
+      <div class="row">
+        <div class="col-4">
+          <img src="assets/images/psychic.jpg" class="img-fluid rounded" alt="psychic image">
+        </div>
 
-    <h2>Guess what letter I am thinking of</h2>
-
-    <div>
-      <p id="wins-text">Wins: 0</p>
-
-      <p id="losses-text">Losses: 0</p>
-
-      <p id="guesses-left-text">Guesses Left: 10</p>
-
-      <p id="guesses-so-far-text">Your guesses so far:</p>
+        <div class="col-8">
+          <h1>Psychic Game</h1>
+          <p>Guess what letter I am thinking of (press a letter key to guess now)</p>
+          <div>
+            <p id="wins-text">Wins: 0</p>
+            <p id="losses-text">Losses: 0</p>
+            <p id="guesses-left-text">Guesses Left: 10</p>
+            <p id="guesses-so-far-text">Your guesses so far:</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-
-
 
     <script src="assets/javascript/game.js"></script>
     <!-- Optional JavaScript -->
